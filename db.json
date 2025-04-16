@@ -2,8 +2,8 @@
     "users": [
         {
             "id": 1,
-            "email": "user@example.com",
-            "password": "123456"
+            "email": "front@email.com",
+            "password": "frontdomina"
         },
         {
             "id": 2,
