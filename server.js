@@ -3,6 +3,10 @@ const server = jsonServer.create();
 const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults();
 const bodyParser = require('body-parser');
+const cors = require('cors');
+
+// Habilita CORS para todas as origens
+server.use(cors({ origin: '*' }));
 
 server.use(middlewares);
 server.use(bodyParser.json());
