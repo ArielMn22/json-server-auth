@@ -11,6 +11,42 @@
             "password": "admin123"
         }
     ],
+    "chats": [
+        {
+            "id": 1,
+            "chatTitle": "Chat 1",
+            "userId": 1,
+            "messages": [
+                {
+                    "id": 1,
+                    "text": "Hello!",
+                    "userId": 1
+                },
+                {
+                    "id": 2,
+                    "text": "Hi!",
+                    "userId": "chatbot"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "chatTitle": "Chat 2",
+            "userId": 2,
+            "messages": [
+                {
+                    "id": 3,
+                    "text": "How are you?",
+                    "userId": 2
+                },
+                {
+                    "id": 4,
+                    "text": "I'm good, thanks!",
+                    "userId": "chatbot"
+                }
+            ]
+        }
+    ],
     "posts": [
         {
             "id": 1,
