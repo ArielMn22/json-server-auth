@@ -1,12 +1,12 @@
 {
     "users": [
         {
-            "id": 1,
+            "id": "f308e80f-d2fe-471d-95ab-70228ba2ed61",
             "email": "front@email.com",
             "password": "frontdomina"
         },
         {
-            "id": 2,
+            "id": "19a40eda-6deb-4eff-b899-24dac02a0d05",
             "email": "admin@example.com",
             "password": "admin123"
         }
@@ -15,12 +15,12 @@
         {
             "id": 1,
             "chatTitle": "Chat 1",
-            "userId": 1,
+            "userId": "f308e80f-d2fe-471d-95ab-70228ba2ed61",
             "messages": [
                 {
                     "id": 1,
                     "text": "Hello!",
-                    "userId": 1
+                    "userId": "f308e80f-d2fe-471d-95ab-70228ba2ed61"
                 },
                 {
                     "id": 2,
@@ -32,12 +32,12 @@
         {
             "id": 2,
             "chatTitle": "Chat 2",
-            "userId": 2,
+            "userId": "19a40eda-6deb-4eff-b899-24dac02a0d05",
             "messages": [
                 {
                     "id": 3,
                     "text": "How are you?",
-                    "userId": 2
+                    "userId": "19a40eda-6deb-4eff-b899-24dac02a0d05"
                 },
                 {
                     "id": 4,
@@ -45,13 +45,6 @@
                     "userId": "chatbot"
                 }
             ]
-        }
-    ],
-    "posts": [
-        {
-            "id": 1,
-            "title": "Hello World",
-            "userId": 1
         }
     ]
 }
