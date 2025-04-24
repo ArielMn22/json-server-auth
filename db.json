@@ -45,6 +45,23 @@
                     "userId": "chatbot"
                 }
             ]
+        },
+        {
+            "id": 3,
+            "chatTitle": "Chat de teste 23/04",
+            "userId": "19a40eda-6deb-4eff-b899-24dac02a0d05",
+            "messages": [
+                {
+                    "id": 3,
+                    "text": "How are you?",
+                    "userId": "19a40eda-6deb-4eff-b899-24dac02a0d05"
+                },
+                {
+                    "id": 4,
+                    "text": "I'm good, thanks!",
+                    "userId": "chatbot"
+                }
+            ]
         }
     ]
 }
