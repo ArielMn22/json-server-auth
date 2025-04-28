@@ -12,7 +12,13 @@ const JWT_EXPIRES_IN = '1h';
 // Enable CORS for all origins
 server.use(cors({ origin: '*' }));
 server.use(middlewares);
-server.use(bodyParser.json()); // Parse JSON bodies
+server.use((req, res, next) => {
+  if (req.path === '/login' && req.method === 'POST') {
+    bodyParser.json()(req, res, next);
+  } else {
+    next();
+  }
+});
 
 // Public root route (you can customize this if you want a landing page)
 server.get('/', (req, res) => {
