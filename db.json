@@ -10,7 +10,7 @@
             "id": "19a40eda-6deb-4eff-b899-24dac02a0d05",
             "name": "Admin Example",
             "email": "admin@example.com",
-            "password": "admin123"
+            "password": "admin123"    
         }
     ],
     "chats": [
