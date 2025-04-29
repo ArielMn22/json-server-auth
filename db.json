@@ -2,11 +2,13 @@
     "users": [
         {
             "id": "f308e80f-d2fe-471d-95ab-70228ba2ed61",
+            "name": "Front Domina",
             "email": "front@email.com",
             "password": "frontdomina"
         },
         {
             "id": "19a40eda-6deb-4eff-b899-24dac02a0d05",
+            "name": "Admin Example",
             "email": "admin@example.com",
             "password": "admin123"
         }
