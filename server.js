@@ -15,9 +15,6 @@ server.use(middlewares);
 server.use((req, res, next) => {
   if (req.path === '/login' && req.method === 'POST') {
     bodyParser.json()(req, res, next);
-    
-
-    
   } else {
     next();
   }
@@ -55,8 +52,9 @@ server.post('/login', (req, res) => {
 server.use((req, res, next) => {
   // Allow public access to root and login
   if (
-    (req.method === 'GET' && req.path === '/') ||
-    (req.method === 'POST' && req.path === '/login')
+    (req.method === 'GET' && req.path === '/') || // Allow root access
+    (req.method === 'POST' && req.path === '/login') || // Allow login
+    (req.method === 'POST' && req.path === '/users') // Allow user registration
   ) {
     return next();
   }
