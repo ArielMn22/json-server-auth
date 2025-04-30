@@ -7,7 +7,7 @@ const cors = require('cors');
 const jwt = require('jsonwebtoken');
 
 const JWT_SECRET = 'mySuperSecretKey12345';   // keep this safe!
-const JWT_EXPIRES_IN = '1h';
+const JWT_EXPIRES_IN = '2h';
 
 // Enable CORS for all origins
 server.use(cors({ origin: '*' }));
