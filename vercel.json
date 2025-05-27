@@ -1,0 +1,9 @@
+// vercel.json
+{
+  "version": 2,
+  "functions": {
+    "/*.js": {
+      "runtime": "nodejs20.x"
+    }
+  }
+}
