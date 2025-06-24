@@ -1,69 +1,71 @@
 {
-    "users": [
-        {
-            "id": "f308e80f-d2fe-471d-95ab-70228ba2ed61",
-            "name": "Front Domina",
-            "email": "front@email.com",
-            "password": "frontdomina"
-        },
-        {
-            "id": "19a40eda-6deb-4eff-b899-24dac02a0d05",
-            "name": "Admin Example",
-            "email": "admin@example.com",
-            "password": "admin123"    
-        }
-    ],
-    "chats": [
-        {
-            "id": 1,
-            "chatTitle": "Chat 1",
-            "userId": "f308e80f-d2fe-471d-95ab-70228ba2ed61",
-            "messages": [
-                {
-                    "id": 1,
-                    "text": "Hello!",
-                    "userId": "f308e80f-d2fe-471d-95ab-70228ba2ed61"
-                },
-                {
-                    "id": 2,
-                    "text": "Hi!",
-                    "userId": "chatbot"
-                }
-            ]
-        },
-        {
-            "id": 2,
-            "chatTitle": "Chat 2",
-            "userId": "19a40eda-6deb-4eff-b899-24dac02a0d05",
-            "messages": [
-                {
-                    "id": 3,
-                    "text": "How are you?",
-                    "userId": "19a40eda-6deb-4eff-b899-24dac02a0d05"
-                },
-                {
-                    "id": 4,
-                    "text": "I'm good, thanks!",
-                    "userId": "chatbot"
-                }
-            ]
-        },
-        {
-            "id": 3,
-            "chatTitle": "Chat de teste 23/04",
-            "userId": "19a40eda-6deb-4eff-b899-24dac02a0d05",
-            "messages": [
-                {
-                    "id": 3,
-                    "text": "How are you?",
-                    "userId": "19a40eda-6deb-4eff-b899-24dac02a0d05"
-                },
-                {
-                    "id": 4,
-                    "text": "I'm good, thanks!",
-                    "userId": "chatbot"
-                }
-            ]
-        }
-    ]
-} 
+  "users": [
+    {
+      "id": "f308e80f-d2fe-471d-95ab-70228ba2ed61",
+      "name": "Front Domina",
+      "email": "front@email.com",
+      "password": "frontdomina"
+    },
+    {
+      "id": "19a40eda-6deb-4eff-b899-24dac02a0d05",
+      "name": "Admin Example",
+      "email": "admin@example.com",
+      "password": "admin123"
+    }
+  ],
+  "chats": [
+    {
+      "id": 1,
+      "chatTitle": "Chat 1",
+      "userId": "f308e80f-d2fe-471d-95ab-70228ba2ed61"
+    },
+    {
+      "id": 2,
+      "chatTitle": "Chat 2",
+      "userId": "19a40eda-6deb-4eff-b899-24dac02a0d05"
+    },
+    {
+      "id": 3,
+      "chatTitle": "Chat de teste 23/04",
+      "userId": "19a40eda-6deb-4eff-b899-24dac02a0d05"
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "chatId": 1,
+      "text": "Hello!",
+      "userId": "f308e80f-d2fe-471d-95ab-70228ba2ed61"
+    },
+    {
+      "id": 2,
+      "chatId": 1,
+      "text": "Hi!",
+      "userId": "chatbot"
+    },
+    {
+      "id": 3,
+      "chatId": 2,
+      "text": "How are you?",
+      "userId": "19a40eda-6deb-4eff-b899-24dac02a0d05"
+    },
+    {
+      "id": 4,
+      "chatId": 2,
+      "text": "I'm good, thanks!",
+      "userId": "chatbot"
+    },
+    {
+      "id": 5,
+      "chatId": 3,
+      "text": "How are you?",
+      "userId": "19a40eda-6deb-4eff-b899-24dac02a0d05"
+    },
+    {
+      "id": 6,
+      "chatId": 3,
+      "text": "I'm good, thanks!",
+      "userId": "chatbot"
+    }
+  ]
+}
